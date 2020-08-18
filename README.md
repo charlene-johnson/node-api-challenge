@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+         I learned about how express uses Node.js for backend. Using express allows for the use of routes which lets you break the application into smaller parts. Express also has middleware that you can use.
+
 -   [ ] Describe Middleware?
+
+        Middleware adds features to express. Middlware is basically an array of functions that get used in the order they are introduced into the code. There are different middleware, such as built in middleware that express already has, third-party middleware and custom middleware, which you build yourself.
 
 -   [ ] Describe a Resource?
 
+        A resource is the information that you are writing in your endpoints. 
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+        It can give users an HTTP status code. Sending status codes help users understand if their requests are sucessful or failing. There are different status codes, like a 200 means its ok, and a 404 is an error.
+
 -   [ ] How can we partition our application into sub-applications?
+
+        Using routers can help partition the app. You can have different routes that you can add to your main server or index file to break down each endpoint instead of having several endpoints on one file.
 
 ## Minimum Viable Product
 
